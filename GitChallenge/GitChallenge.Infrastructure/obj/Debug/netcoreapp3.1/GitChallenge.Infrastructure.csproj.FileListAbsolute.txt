@@ -1,8 +1,0 @@
-D:\joao\repo\dev-hiring-challenge\GitChallenge\GitChallenge.Infrastructure\bin\Debug\netcoreapp3.1\GitChallenge.Infrastructure.deps.json
-D:\joao\repo\dev-hiring-challenge\GitChallenge\GitChallenge.Infrastructure\bin\Debug\netcoreapp3.1\GitChallenge.Infrastructure.dll
-D:\joao\repo\dev-hiring-challenge\GitChallenge\GitChallenge.Infrastructure\bin\Debug\netcoreapp3.1\GitChallenge.Infrastructure.pdb
-D:\joao\repo\dev-hiring-challenge\GitChallenge\GitChallenge.Infrastructure\obj\Debug\netcoreapp3.1\GitChallenge.Infrastructure.csprojAssemblyReference.cache
-D:\joao\repo\dev-hiring-challenge\GitChallenge\GitChallenge.Infrastructure\obj\Debug\netcoreapp3.1\GitChallenge.Infrastructure.AssemblyInfoInputs.cache
-D:\joao\repo\dev-hiring-challenge\GitChallenge\GitChallenge.Infrastructure\obj\Debug\netcoreapp3.1\GitChallenge.Infrastructure.AssemblyInfo.cs
-D:\joao\repo\dev-hiring-challenge\GitChallenge\GitChallenge.Infrastructure\obj\Debug\netcoreapp3.1\GitChallenge.Infrastructure.dll
-D:\joao\repo\dev-hiring-challenge\GitChallenge\GitChallenge.Infrastructure\obj\Debug\netcoreapp3.1\GitChallenge.Infrastructure.pdb
