@@ -6,9 +6,11 @@ namespace GitChallenge.Domain.OwnerRepositoryLanguages
 {
     public class OwnerRepositoryLanguage
     {
-        public OwnerRepositoryLanguage(string login,  string profileAddress, string profileIcon)
+        public OwnerRepositoryLanguage(long ownerExternalId, string login,  string profileAddress, string profileIcon)
         {
             Id = Guid.NewGuid();
+            
+            OwnerExternalId = ownerExternalId;
 
             Login = login;
 
@@ -21,6 +23,8 @@ namespace GitChallenge.Domain.OwnerRepositoryLanguages
         protected OwnerRepositoryLanguage() {}
         
         public Guid Id { get; }
+
+        public long OwnerExternalId { get; }
 
         public string Login { get; }
 

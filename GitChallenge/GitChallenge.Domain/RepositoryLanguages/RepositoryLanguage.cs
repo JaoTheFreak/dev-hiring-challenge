@@ -8,8 +8,8 @@ namespace GitChallenge.Domain.RepositoryLanguages
 {
     public class RepositoryLanguage
     {
-        public RepositoryLanguage(Guid ownerRepositoryId, Guid programmingLanguageId, int repositoryExternalId, string name, string fullName, string repositoryAddress,
-            string description, )
+        public RepositoryLanguage(Guid ownerRepositoryId, Guid programmingLanguageId, long repositoryExternalId, string name, string fullName, string repositoryAddress,
+            string description, int stargazers)
         {
             Id = Guid.NewGuid();
 
@@ -18,6 +18,18 @@ namespace GitChallenge.Domain.RepositoryLanguages
             ProgrammingLanguageId = programmingLanguageId;
 
             RepositoryExternalId = repositoryExternalId;
+
+            Name = name;
+
+            FullName = fullName;
+
+            RepositoryAddress = repositoryAddress;
+
+            Description = description;
+
+            Stargazers = stargazers;
+
+            RegisteredAt = DateTime.UtcNow;
         }
 
         //Empty ctor for EntityFramework
@@ -29,12 +41,19 @@ namespace GitChallenge.Domain.RepositoryLanguages
 
         public Guid OwnerRepositoryId { get; }
 
-        public int RepositoryExternalId { get; }
+        public long RepositoryExternalId { get; }
 
         public string Name { get; }
 
         public string FullName { get; }
 
+        public string RepositoryAddress { get; }
+
+        public string Description { get; }
+
+        public int Stargazers { get; }
+
+        public DateTime RegisteredAt { get; }
 
         public virtual OwnerRepositoryLanguage OwnerRepositoryLanguage { get; }
 
