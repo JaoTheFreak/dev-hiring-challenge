@@ -3,19 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitChallenge.Infrastructure", "GitChallenge.Infrastructure\GitChallenge.Infrastructure.csproj", "{6482CC51-26EF-4812-B2C6-D37E21B2CAB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitChallenge.Data", "GitChallenge.Data\GitChallenge.Data.csproj", "{6482CC51-26EF-4812-B2C6-D37E21B2CAB7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitChallenge.Domain", "GitChallenge.Domain\GitChallenge.Domain.csproj", "{22895272-8730-4002-9796-4E1F080A74E4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{E54C1991-990E-4ABC-B8CE-E96E6FD82F84}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Domain", "1 - Domain", "{2BFC2621-AF46-4952-9370-1AD69DE7C88C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{2BFC2621-AF46-4952-9370-1AD69DE7C88C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{4372ADC5-6243-45D6-AABA-F803D871DD84}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{4372ADC5-6243-45D6-AABA-F803D871DD84}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitChallenge.WebPortal", "GitChallenge.WebPortal\GitChallenge.WebPortal.csproj", "{7F9F861C-2628-4115-92EA-895885FD07BB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{36364FCA-E41C-43FF-886D-949A5599E97B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Service", "2 - Service", "{36364FCA-E41C-43FF-886D-949A5599E97B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitChallenge.Infrastructure", "GitChallenge.Infrastructure\GitChallenge.Infrastructure.csproj", "{4E2C20F9-2F12-4FD3-BAD2-4B537A8162F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{5BCDCF8F-6230-476A-A381-0294112E6303}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{B23405B7-4E67-44ED-B1FE-069758002D67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Services", "2 - Services", "{E3C20212-D249-4E8C-9218-3295F4B67CB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitChallenge.WebPortal", "GitChallenge.WebPortal\GitChallenge.WebPortal.csproj", "{B8CC299A-1C58-44D9-9E64-B34D66982984}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,10 +39,18 @@ Global
 		{22895272-8730-4002-9796-4E1F080A74E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22895272-8730-4002-9796-4E1F080A74E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22895272-8730-4002-9796-4E1F080A74E4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7F9F861C-2628-4115-92EA-895885FD07BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7F9F861C-2628-4115-92EA-895885FD07BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7F9F861C-2628-4115-92EA-895885FD07BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7F9F861C-2628-4115-92EA-895885FD07BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E2C20F9-2F12-4FD3-BAD2-4B537A8162F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E2C20F9-2F12-4FD3-BAD2-4B537A8162F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E2C20F9-2F12-4FD3-BAD2-4B537A8162F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E2C20F9-2F12-4FD3-BAD2-4B537A8162F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B23405B7-4E67-44ED-B1FE-069758002D67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B23405B7-4E67-44ED-B1FE-069758002D67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B23405B7-4E67-44ED-B1FE-069758002D67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B23405B7-4E67-44ED-B1FE-069758002D67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8CC299A-1C58-44D9-9E64-B34D66982984}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8CC299A-1C58-44D9-9E64-B34D66982984}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8CC299A-1C58-44D9-9E64-B34D66982984}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8CC299A-1C58-44D9-9E64-B34D66982984}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,7 +58,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6482CC51-26EF-4812-B2C6-D37E21B2CAB7} = {4372ADC5-6243-45D6-AABA-F803D871DD84}
 		{22895272-8730-4002-9796-4E1F080A74E4} = {2BFC2621-AF46-4952-9370-1AD69DE7C88C}
-		{7F9F861C-2628-4115-92EA-895885FD07BB} = {E54C1991-990E-4ABC-B8CE-E96E6FD82F84}
+		{4E2C20F9-2F12-4FD3-BAD2-4B537A8162F7} = {4372ADC5-6243-45D6-AABA-F803D871DD84}
+		{B23405B7-4E67-44ED-B1FE-069758002D67} = {E54C1991-990E-4ABC-B8CE-E96E6FD82F84}
+		{B8CC299A-1C58-44D9-9E64-B34D66982984} = {E54C1991-990E-4ABC-B8CE-E96E6FD82F84}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {08747B74-6CF1-46A7-8B91-6C1449A4F17B}
